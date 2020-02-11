@@ -8,7 +8,14 @@
 </head>
 <body>
     
-
+    <div id="app" class="container">
+        <div class="row">            
+                <game-soccer-card v-for="g in games" v-bind:game="g">
+                </game-soccer-card>                    
+        </div>
+        
+        
+    </div>
 
 
 
